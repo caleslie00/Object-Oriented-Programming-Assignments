@@ -1,0 +1,5 @@
+To run this project you need ClapAdventure.cpp, ClapAdventure.h, and ClapAdventureRendering.cpp all in the same directory.
+
+Then, simply run ClapAdventureRendering.cpp with a compiler and it should take care of everything else.
+
+This project was made with Wyatt Whitemeyer and Nicolas Fornicola.

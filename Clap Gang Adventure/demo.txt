@@ -1,0 +1,189 @@
+-- Clap Gang Adventure is a riveting puzzle-like game where the main goal is to get through the classes Programming 1,
+	Programming 2, and Object Oriented Programming by picking up items and talking to NPCs to increase your various programming skills.
+
+---------------------------------------------------------------------------------------------------------------------------------
+|Welcome to the Clap Gang Adventure!! You are an incoming freshman looking forward to a new world of independence and knowledge,|
+|but first you need to introduce yourself and declare a major!                                                                  |
+|You know you want somthing with computers but need to pick which specific path you will take.                                  |
+---------------------------------------------------------------------------------------------------------------------------------
+
+Enter Name: Example
+
+------------------------------------------------------------------------------------------------------
+| Good luck to you, Example! You've signed up to take programming classes... Oof                     |
+| You are a new Freshman technology student at ACU. Your major describes everything about yourself...|
+| Choose a major:                                                                                    |
+| A. IS                                                                                              |
+| B. DET                                                                                             |
+| C. CS                                                                                              |
+| D. Double Major in Computer Science and Mathematics                                                |
+------------------------------------------------------------------------------------------------------
+
+Choice? D
+
+-- You start off by entering a name and choosing a major. The major chosen will determine what your starting stats are and how many moves
+	you have each turn.
+
+You have 6 moves until the Athene Final!
+U**N
+*!**
+****
+C!*H
+--Enter command: key
+
+Key: U = You, the player
+     H = Dr. Homer
+     N = Nathan
+     C = Caleb
+     ! = Mystery Item
+     * = Empty space (Or is it? ... )
+
+--Enter command:
+
+-- As you can see, unlike several text adventure games, Clap Gang Adventure creates a rendering of the map you are currently in with keys
+	to designate where everything is so that there is no confusion (however, do not trust the map to show you everything, there may be
+	some hidden items, commands, or interactions untold to the player). Continuing:
+
+--Enter command: help
+Here is a list of commands:
+        move [left, right, up, down]
+        train [tracing, writing, data, abstraction]
+        talk
+        pickup
+        key
+        stats
+        test
+        help (duh, you just used it)
+        quit
+
+-- Additionally, a help menu is available as a simple command. In addition, all commands are case-insensitive, so you don't have to worry
+	too much about the specificity of the commands, just get the words right. Continuing:
+
+You have 4 moves until the Athene Final!
+**UN
+*!**
+****
+C!*H
+
+--Enter command: move right
+
+You have 3 moves until the Athene Final!
+***U
+*!**
+****
+C!*H
+
+--Enter command: talk
+
+----------------------------------------------------------------------------------
+|Nathan: *looks at code* What are you even doing here... lets think about this...|
+|Tracing Skill + 2!                                                              |
+|Writing Skill + 2!                                                              |
+----------------------------------------------------------------------------------
+
+
+--Enter command:
+
+-- Moving on top of an NPC and using the talk command allows you to interact with this NPC. This action will often also increase your
+	programming skills to help you pass the test when you run out of moves. Continuing:
+
+You have 1 moves until the Athene Final!
+***N
+*!U*
+****
+C!*H
+
+--Enter command: move left
+
+You have 0 moves until the Athene Final!
+You can still use any commands such as "pickup" or "talk", but you cannot move (or train)! It is time for the test! Type "test" to take the test.
+
+--Enter command: pickup
+
+-----------------------------
+|You picked up a razorMouse!|
+|Tracing Skill +5!          |
+-----------------------------
+
+
+--Enter command:
+
+-- Additionally, using "pickup" while over an item picks up the item and removes it from the board will also add to the player's inventory
+	and usually improve skills. Using the pickup or talk commands also does not break the game if used improperly. They also do not
+	reduce the number of moves you have. So here, we were out of moves, but could still pick up the item we were on top of. Continuing:
+
+--Enter command: test
+
+----------------------------------
+|Code Tracing Ability? Excellent!|
+|Code Writing Ability? Excellent!|
+----------------------------------
+
+
+---------------------------------------------------------------------------------
+|Phew, you passed! That Athene Test was something else wasn't it?               |
+|But, you ain't finished yet! You still got at least 2 more years of this stuff!|
+|On to P2!                                                                      |
+---------------------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+|Great job passing an entry level class :)                                                                                                              |
+|Now its time to learn a little bit more about behind the scences and everything that Dr.Homer said we would talk about later is now being talked about!|
+|Although it's exciting its more challenging.                                                                                                           |
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+|You walk into the Programming II classroom to find, to your surprize, two professors: Dr. Homer and Dr. Reeves.                           |
+|You also notice Nathan is back as your tutor again. He sure is helpful for leaning many things.                                           |
+|You also heard this strange sound come from right above you... Might be nothing, but you have no time to waste! The P2 final will be soon!|
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+You have 6 moves until the Athene Final!
+U**H
+***!
+*!S*
+N**R
+
+
+-- Typing "test" will put you against the Athene final for that course. If you pass, you move on to the next level (from P1 to P2 to OOP)
+	If you fail, you will have to repeat that level with no duplicate items, but you can still talk to NPCs and train.
+
+You have 6 moves until the Athene Final!
+U**H
+***!
+*!S*
+N**R
+
+--Enter command: train tracing
+
+-----------------------------------------------------------------------------------------------------------
+|You went back through some old code, and found the errors pretty quick, resulting in a small improvement.|
+|Tracing Skill +1                                                                                         |
+-----------------------------------------------------------------------------------------------------------
+
+
+You have 5 moves until the Athene Final!
+U**H
+***!
+*!S*
+N**R
+
+--Enter command:
+
+-- As such, you also have the ability to "train" a specific skill you may be slightly lacking in. This takes up a move point, but can also
+	be used as a way to increase stats when you would not be able to reach anything with move points anyway.
+
+--Enter command: quit
+
+
+----------------------------------------------------------------------------------------------
+|Thank you for playing the Clap Gang Adventure!! We hope you've enjoyed. Never stop clapping.|
+----------------------------------------------------------------------------------------------
+
+-- The command "quit" can also be given at any time to end the program early.
+
+-- Obviously there are more amazing things about this game, but that covers the basis are uniqueness of it. 
+	Have fun finding the few hidden fun things in the game, and good luck!
